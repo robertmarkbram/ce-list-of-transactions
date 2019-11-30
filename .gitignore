@@ -1,0 +1,37 @@
+target/
+*.bak
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### Windows ###
+desktop.ini
+
+### VS Code ###
+.vscode/
+.history/
+
+### Java ###
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/conf/secret.conf
+/test/resources/Test.json
+
+### Mac OS ###
+.DS_Store
